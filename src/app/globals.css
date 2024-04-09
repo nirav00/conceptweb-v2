@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -49,4 +49,20 @@ body {
   background: #981df0;
   border: none;
   border-radius: 0;
+} */
+.items-center {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  object-fit: contain;
 }
+.imgs Image{
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 468px) {
+  ul li {
+     display: block;
+  }
+ }
